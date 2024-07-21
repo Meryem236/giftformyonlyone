@@ -1,0 +1,199 @@
+:root {
+    --primary: #fff;
+    --bg-color: rgb(212, 69, 69);
+    --bg-envelope-color: #f5edd1;
+    --envelope-tab: #ecdeb8;
+    --envelope-cover: #e6cfa7;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --txt-color: #444;
+    --heart-color: rgb(252, 8, 231);
+    --balloon1-color: red;
+    --balloon2-color: blue;
+    --balloon3-color: green;
+    --balloon4-color: rgb(197, 0, 232);
+    --thread-color: rgb(250, 234, 214);
+  }
+  
+  body {
+    background: radial-gradient(circle, rgb(157, 3, 3), white);
+    border: double 15px rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .tenor-gif-embed {
+    max-width: 300px;
+    box-shadow: 1px 1px 1px 8px hsl(175, 100%, 83%);
+    border: double 8px rgb(255, 255, 255);
+
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+    color: #fff;
+    font-style: italic;
+  }
+  
+  .btn-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+  
+  .btn {
+    color: #111;
+    background: #fff;
+    padding: 10px 32px;
+    font-size: large;
+    border: double 4px rgb(95, 95, 95);
+    box-shadow: 4px 6px 2px hsl(0, 3%, 16%);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  
+  .btn-container a:first-child:hover {
+    background-color: rgb(101, 184, 101);
+    color: #fff;
+  }
+  
+  .btn-container a:last-child:hover {
+    background-color: rgb(178, 41, 41);
+    color: #fff;
+  }
+  
+
+
+
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .tenor-gif-embed {
+    max-width: 300px;
+    box-shadow: 1px 1px 1px 8px hsl(175, 100%, 83%);
+    border: double 8px rgb(255, 255, 255);
+
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+    color: #fff;
+    font-style: italic;
+  }
+  
+  .btn-container2 {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+  
+  .btn {
+    color: #111;
+    background: #fff;
+    padding: 10px 32px;
+    font-size: large;
+    border: double 4px rgb(95, 95, 95);
+    box-shadow: 4px 6px 2px hsl(0, 3%, 16%);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  
+  .btn-container a:first-child:hover {
+    background-color: rgb(101, 184, 101);
+    color: #fff;
+  }
+  
+  .btn-container a:last-child:hover {
+    background-color: rgb(178, 41, 41);
+    color: #fff;
+  }
+  
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .tenor-gif-embed {
+    max-width: 300px;
+    box-shadow: 1px 1px 1px 8px hsl(1, 98%, 32%);
+    border: double 8px rgb(247, 191, 191);
+
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+    color: #6f0202;
+    font-style: italic;
+  }
+  
+  .btn-container1 {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+  
+  .btn {
+    color: #111;
+    background: #fff;
+    padding: 10px 32px;
+    font-size: large;
+    border: double 4px rgb(95, 95, 95);
+    box-shadow: 4px 6px 2px hsl(0, 3%, 16%);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  
+  .btn-container a:first-child:hover {
+    background-color: rgb(101, 184, 101);
+    color: #fff;
+  }
+  
+  .btn-container a:last-child:hover {
+    background-color: rgb(178, 41, 41);
+    color: #fff;
+  }
+  
+  .message {
+    display: none; /* Skryje text, kým nie je zobrazený */
+    margin-top: 40px;
+    font-size: 28px;
+    color: #000000;
+}
+
